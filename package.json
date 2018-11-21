@@ -13,7 +13,10 @@
   "keywords": [
     "unoconv"
   ],
-  "author": "Mike Herwig",
+  "author": {
+    "name": "Mike Herwig",
+    "url": "https://github.com/mherwig"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mherwig/unoconv3/issues"

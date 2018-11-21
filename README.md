@@ -2,6 +2,8 @@
 
 A node.js wrapper for converting documents with [unoconv](http://dag.wieers.com/home-made/unoconv/).
 
+Based on [unoconv2](https://github.com/HAASLEWER/unoconv2) by Lehan Coetzee with the ability to pass filters
+
 ## Requirements
 
 [Unoconv](http://dag.wieers.com/home-made/unoconv/) is required, which requires [LibreOffice](http://www.libreoffice.org/) (or OpenOffice.)
