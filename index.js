@@ -41,6 +41,12 @@ unoconv.convert = function(file, outputFormat, options, callback) {
         args.push('-i ' + options.charset)
     }
 
+    if (options && options.filters && Array.isArray(options.filters)) {
+        options.filters.forEach(filter => {
+            args.push('-e ' + filter)
+        })
+    }
+
     args.push(file);
 
     if (options && options.bin) {

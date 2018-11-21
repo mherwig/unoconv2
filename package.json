@@ -1,24 +1,24 @@
 {
-  "name": "unoconv2",
+  "name": "unoconv3",
   "version": "1.0.0",
-  "description": "Based on node-unoconv by gfloyd with a childProcess.spawn fix",
+  "description": "Based on unoconv2 by Lehan Coetzee with the ability to pass filters",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HAASLEWER/unoconv2.git"
+    "url": "https://github.com/mherwig/unoconv3.git"
   },
   "keywords": [
     "unoconv"
   ],
-  "author": "Lehan Coetzee <haaslewer2@gmail.com>",
+  "author": "Mike Herwig",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HAASLEWER/unoconv2/issues"
+    "url": "https://github.com/mherwig/unoconv3/issues"
   },
-  "homepage": "https://github.com/HAASLEWER/unoconv2",
+  "homepage": "https://github.com/mherwig/unoconv3",
   "dependencies": {
     "mime": "^1.3.4",
     "underscore": "^1.8.3"
