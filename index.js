@@ -43,7 +43,7 @@ unoconv.convert = function(file, outputFormat, options, callback) {
 
     if (options && options.filters && Array.isArray(options.filters)) {
         options.filters.forEach(filter => {
-            args.push('-e ' + filter)
+            args.push('-e' + filter)
         })
     }
 
