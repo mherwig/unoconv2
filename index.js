@@ -53,7 +53,10 @@ unoconv.convert = function(file, outputFormat, options, callback) {
         bin = options.bin;
     } 
 
-    child = childProcess.spawn(bin, args);    
+    var env = Object.create(process.env);
+    env.HOME = '/tmp';
+
+    child = childProcess.spawn(bin, args, { env : env });    
 
     child.stdout.on('data', function (data) {
         stdout.push(data);
